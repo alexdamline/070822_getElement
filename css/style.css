@@ -11,8 +11,12 @@ body {
     color: #fff;
 }
 
+div {
+    display:inline-block;
+}
+
 .buttonGood {
-    width: 147px;
+    width: 45%;
     height: 35px;
     color: #fff;
     font-size: 12pt;
@@ -21,10 +25,11 @@ body {
     background-color: #2ecc71;
     border: 0;
     border-radius: 2px;
+    float: left;
 }
 
 .buttonBad {
-    width: 147px;
+    width: 45%;
     height: 35px;
     color: #fff;
     font-size: 12pt;
@@ -33,6 +38,7 @@ body {
     background-color: #c0392b;
     border: 0;
     border-radius: 2px;
+    float: right;
 }
 
 #titleH1 {
@@ -41,23 +47,38 @@ body {
 }
 
 #faceImg {
-    width: 300px;
+    object-fit: cover;
+    max-width: 100%; /*Изображение будет масштабироваться вплоть до 100 % ширины его элемента-контейнера*/
     margin-bottom: 25px;
     border-radius: 2px;
 }
 
 .divCounterLeft {
-    position: absolute;
-    left: 17.5%;
-    width: 50%;
-    height: 500px;
-    padding-top: 20px;
+    /*background-color:#97aca0;*/
+    /*position: absolute;*/
+    /*left: 17.5%;*/
+    width: 48%;
+    /*height: 500px;*/
+    /*padding-top: 20px;*/
 }
 
 .divCounterRight {
-    position: absolute;
-    right: 17%;
-    width: 50%;
-    height: 500px;
-    padding-top: 20px;
+    /*background-color:rgb(194, 224, 250);*/
+    /*position: absolute;*/
+    /*right: 17%;*/
+    width: 48%;
+    /*height: 500px;*/
+    /*padding-top: 20px;*/
+}
+
+.divSideSpace {
+   /* width: 60%;*/
+   width: 40%;
+    /*background-color: #c0392b;*/
+}
+
+.divCenter {
+    /*background-color:rgb(69, 70, 70);*/
+    width: 18%;
+    display:inline-block;
 }

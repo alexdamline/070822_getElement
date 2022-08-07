@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    <title>getElementById_860822</title>
+    <title>getElement</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,25 +14,33 @@
 
 <body>
 
-    <h1 id="titleH1">Good!</h1>
+    <div class="divSideSpace"></div>
 
-    <img id="faceImg" src="img/faceHappy.jpg" /><br>
+    <div class="divCenter">
 
-    <button class="buttonGood"
-        onclick="document.getElementById('titleH1').innerHTML = 'Good!'; valueLeft(); document.getElementById('faceImg').src='img/faceHappy.jpg'">Praise</button>
+        <h1 id="titleH1">Good!</h1>
 
-    <button class="buttonBad"
-        onclick="document.getElementById('titleH1').innerHTML = 'Bad...'; valueRight(); document.getElementById('faceImg').src='img/faceSad.jpg'">Insult</button>
+        <img id="faceImg" src="img/faceHappy.jpg" /><br>
 
-    <br>
+        <button class="buttonGood"
+            onclick="document.getElementById('titleH1').innerHTML = 'Good!'; valueLeft(); document.getElementById('faceImg').src='img/faceHappy.jpg'">Praise</button>
 
-    <div class="divCounterLeft">
-        <h2 id="counterLeft">0</h2>
+        <button class="buttonBad"
+            onclick="document.getElementById('titleH1').innerHTML = 'Bad...'; valueRight(); document.getElementById('faceImg').src='img/faceSad.jpg'">Insult</button>
+
+        <br>
+
+        <div class="divCounterLeft">
+            <h2 id="counterLeft">0</h2>
+        </div>
+
+        <div class="divCounterRight">
+            <h2 id="counterRight">0</h2>
+        </div>
+
     </div>
 
-    <div class="divCounterRight">
-        <h2 id="counterRight">0</h2>
-    </div>
+    <div class="divSideSpace"></div>
 
     <script src="js/script.js"></script>
 
