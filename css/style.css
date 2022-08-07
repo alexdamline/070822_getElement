@@ -1,17 +1,17 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Oswald', sans-serif;
     background-color: #2c3e50;
     text-align: center;
     color: #fff;
-  }
-  
-  .buttonGood {
+}
+
+.buttonGood {
     width: 147px;
     height: 35px;
     color: #fff;
@@ -21,9 +21,9 @@
     background-color: #2ecc71;
     border: 0;
     border-radius: 2px;
-  }
-  
-  .buttonBad {
+}
+
+.buttonBad {
     width: 147px;
     height: 35px;
     color: #fff;
@@ -33,41 +33,31 @@
     background-color: #c0392b;
     border: 0;
     border-radius: 2px;
-  }
-  
-  #titleH1 {
+}
+
+#titleH1 {
     color: #FFF;
     padding: 20px;
-  }
-  
-  #faceImg {
+}
+
+#faceImg {
     width: 300px;
     margin-bottom: 25px;
     border-radius: 2px;
-  }
-  
-  
-  /*
-  .divCounter {
-    width: 50%;
-    position: relative;
-    display: inline-block;
-  }
-  */
-  
-  
-  .divCounterLeft {
+}
+
+.divCounterLeft {
     position: absolute;
     left: 6%;
     width: 50%;
     height: 500px;
     padding-top: 20px;
-  }
-  
-  .divCounterRight {
+}
+
+.divCounterRight {
     position: absolute;
     right: 7%;
     width: 50%;
     height: 500px;
     padding-top: 20px;
-  } 
+}

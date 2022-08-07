@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width" />
-  <title>getElementById_860822</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>getElementById_860822</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    </style>
 </head>
+
 <body>
 
-  <h1 id="titleH1">Good!</h1>
+    <h1 id="titleH1">Good!</h1>
 
-  <img id="faceImg" src="img/faceHappy.jpg"/><br>
+    <img id="faceImg" src="img/faceHappy.jpg" /><br>
 
-  <button class="buttonGood" onclick="document.getElementById('titleH1').innerHTML = 'Good!';
-valueLeft();
-document.getElementById('faceImg').src='img/faceHappy.jpg'">Praise</button>
+    <button class="buttonGood"
+        onclick="document.getElementById('titleH1').innerHTML = 'Good!'; valueLeft(); document.getElementById('faceImg').src='img/faceHappy.jpg'">Praise</button>
 
-  <button class="buttonBad" onclick="document.getElementById('titleH1').innerHTML = 'Bad...';
-valueRight();
-document.getElementById('faceImg').src='img/faceSad.jpg'">Insult</button>
+    <button class="buttonBad"
+        onclick="document.getElementById('titleH1').innerHTML = 'Bad...'; valueRight(); document.getElementById('faceImg').src='img/faceSad.jpg'">Insult</button>
 
-  <br>
+    <br>
 
-  <div class="divCounterLeft">
-  <h2 id="counterLeft">0</h2>
-  </div>
+    <div class="divCounterLeft">
+        <h2 id="counterLeft">0</h2>
+    </div>
 
-  <div class="divCounterRight">
-  <h2 id="counterRight">0</h2>
-  </div>
+    <div class="divCounterRight">
+        <h2 id="counterRight">0</h2>
+    </div>
 
-<!--  <div style="divHalf"><p>0</p></div> -->
-
-
-
-  <script src="js/script.js"></script>
-
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
