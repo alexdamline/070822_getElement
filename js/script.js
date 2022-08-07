@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 //let counterLeftValue =
 //document.getElementById('counterLeft');
