@@ -12,7 +12,7 @@ body {
 }
 
 div {
-    display:inline-block;
+    display: inline-block;
 }
 
 .buttonGood {
@@ -41,6 +41,24 @@ div {
     float: right;
 }
 
+
+.divCounterLeft {
+    width: 48%;
+}
+
+.divCounterRight {
+    width: 48%;
+}
+
+.divSideSpace {
+    width: 40%;
+}
+
+.divCenter {
+    width: 18%;
+    display: inline-block;
+}
+
 #titleH1 {
     color: #FFF;
     padding: 20px;
@@ -48,37 +66,7 @@ div {
 
 #faceImg {
     object-fit: cover;
-    max-width: 100%; /*Изображение будет масштабироваться вплоть до 100 % ширины его элемента-контейнера*/
+    max-width: 100%;/*The image will be scaled up to 100% of the width of its container element*/
     margin-bottom: 25px;
     border-radius: 2px;
-}
-
-.divCounterLeft {
-    /*background-color:#97aca0;*/
-    /*position: absolute;*/
-    /*left: 17.5%;*/
-    width: 48%;
-    /*height: 500px;*/
-    /*padding-top: 20px;*/
-}
-
-.divCounterRight {
-    /*background-color:rgb(194, 224, 250);*/
-    /*position: absolute;*/
-    /*right: 17%;*/
-    width: 48%;
-    /*height: 500px;*/
-    /*padding-top: 20px;*/
-}
-
-.divSideSpace {
-   /* width: 60%;*/
-   width: 40%;
-    /*background-color: #c0392b;*/
-}
-
-.divCenter {
-    /*background-color:rgb(69, 70, 70);*/
-    width: 18%;
-    display:inline-block;
 }
